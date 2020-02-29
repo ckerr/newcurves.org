@@ -4,17 +4,25 @@
 <head>
   <meta charset="utf-8">
 
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
+  <title>Curvilinear Art</title>
+  <meta name="description" content="A website inspired by Bridget Riley's 'New Curve' works">
   <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+  <style>
+   body {
+     margin: 0;
+   }
+   canvas {
+     display: block;  /* prevents scrollbar */
+     width: 100vw;
+     height: 100vh;
+   }
+</style>
 
 </head>
 
 <body>
   <script src="js/scripts.js"></script>
-
-  <b>Hello, World!</b>
+  <canvas id="canvas"></canvas>
 </body>
 </html>
